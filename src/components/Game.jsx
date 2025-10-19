@@ -56,25 +56,26 @@ export default function Game() {
   const [lastDaily, setLastDaily] = useState(() => localStorage.getItem('timeliner_last_daily') || '')
   const [events, setEvents] = useState(null);
   const [index, setIndex] = useState(null);
-  // Load events on mount
+  // Load events and index on mount and when used changes
   React.useEffect(() => {
     let isMounted = true;
-    getEvents().then(evts => {
+    async function loadAll() {
+      const evts = await getEvents();
       if (!isMounted) return;
       setEvents(evts);
-    });
-    return () => { isMounted = false; };
-  }, []);
-
-  // Set index when events or used changes
-  React.useEffect(() => {
-    if (!events) return;
-    if (used.length === 0) {
-      getDailyIndex().then(idx => setIndex(idx));
-    } else {
-      getNextUnusedIndex(used).then(idx => setIndex(idx ?? 0));
+      let idx;
+      if (used.length === 0) {
+        idx = await getDailyIndex();
+      } else {
+        idx = await getNextUnusedIndex(used);
+        if (idx === null) idx = 0;
+      }
+      if (!isMounted) return;
+      setIndex(idx);
     }
-  }, [events, used]);
+    loadAll();
+    return () => { isMounted = false; };
+  }, [used]);
 
   // Guard: If events or index is undefined, show loading or error
   if (!events || index === null || !events[index]) {
@@ -101,9 +102,11 @@ export default function Game() {
   React.useEffect(() => {
     if (mode === 'daily' && lastDaily === todayStr && events) {
       setMode('extra');
-      getNextUnusedIndex(used).then(nextIndex => {
+      async function setNextUnused() {
+        const nextIndex = await getNextUnusedIndex(used);
         if (nextIndex !== null) setIndex(nextIndex);
-      });
+      }
+      setNextUnused();
     }
   }, [mode, lastDaily, todayStr, used, events]);
 
@@ -163,14 +166,16 @@ export default function Game() {
     // Switch to extra mode if daily was completed
     setMode('extra');
     // Pick next unused question
-    getNextUnusedIndex(newUsed).then(nextIndex => {
+    async function setNextUnused() {
+      const nextIndex = await getNextUnusedIndex(newUsed);
       if (nextIndex !== null) {
         setIndex(nextIndex);
         setTries([]);
         setDone(false);
         setGuess('');
       }
-    });
+    }
+    setNextUnused();
   };
 
   const onReset = () => {
