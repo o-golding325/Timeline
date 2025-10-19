@@ -1,0 +1,1045 @@
+[
+  {
+    "year": "-9000",
+    "title": "The Agricultural Revolution",
+    "description": "Humans domesticate plants and animals, leading to the rise of agriculture.",
+    "explanation": "Between c. 11,000 and 4,000 BCE, humans began domesticating plants and animals in various regions, leading to the rise of agriculture and the foundation for settled societies.",
+    "id": "event--9000-agricultural-revolution"
+  },
+  {
+    "year": "-3500",
+    "title": "First Cities in Mesopotamia",
+    "description": "The first cities emerge in Mesopotamia, including Eridu and Uruk.",
+    "explanation": "Around 4000–3000 BCE, the first cities such as Eridu and Uruk emerged in Mesopotamia (modern Iraq), marking the beginning of urban civilization.",
+    "id": "event--3500-mesopotamia-cities"
+  },
+  {
+    "year": "-3500",
+    "title": "First Wheeled Vehicles",
+    "description": "The first wheeled vehicles appear in Mesopotamia, Eastern Europe, and the Caucasus.",
+    "explanation": "Around 3500 BCE, the invention of the wheel revolutionized transport and technology in Mesopotamia and surrounding regions.",
+    "id": "event--3500-wheeled-vehicles"
+  },
+  {
+    "year": "-3200",
+    "title": "First Writing Systems",
+    "description": "Writing systems such as cuneiform and hieroglyphics appear in Mesopotamia and Egypt.",
+    "explanation": "Around 3200 BCE, the first writing systems—cuneiform in Mesopotamia and hieroglyphics in Egypt—were developed, enabling record-keeping and complex administration.",
+    "id": "event--3200-writing-systems"
+  },
+  {
+    "year": "-2560",
+    "title": "Great Pyramid of Giza Built",
+    "description": "The Great Pyramid of Giza is constructed for Pharaoh Khufu in Egypt.",
+    "explanation": "Around 2560 BCE, the Great Pyramid of Giza was built as a tomb for Pharaoh Khufu, becoming one of the most iconic monuments of ancient Egypt.",
+    "id": "event--2560-great-pyramid"
+  },
+  {
+    "year": "-1850",
+    "title": "Origin of Modern Alphabets",
+    "description": "Proto-Sinaitic script emerges, leading to the development of modern alphabets.",
+    "explanation": "Between c. 1850 and 800 BCE, the Proto-Sinaitic script gave rise to the Phoenician, Greek, and Roman alphabets, shaping written communication for millennia.",
+    "id": "event--1850-alphabets"
+  },
+  {
+    "year": "-1754",
+    "title": "Code of Hammurabi Issued",
+    "description": "Babylonian King Hammurabi issues one of the earliest legal codes.",
+    "explanation": "Around 1754 BCE, Hammurabi, king of Babylon, issued the Code of Hammurabi, one of the earliest and most complete written legal codes.",
+    "id": "event--1754-hammurabi"
+  },
+  {
+    "year": "-1200",
+    "title": "Iron Age Begins",
+    "description": "The spread of iron metallurgy marks the end of the Bronze Age and the start of the Iron Age.",
+    "explanation": "Between c. 1200 and 500 BCE, knowledge of ironworking spread across the ancient world, ushering in the Iron Age and transforming societies.",
+    "id": "event--1200-iron-age"
+  },
+  {
+    "year": "-800",
+    "title": "Rise of Ancient Greek Civilization",
+    "description": "The Greek city-states emerge, leading to a golden age of arts, philosophy, and democracy.",
+    "explanation": "From c. 800 to 336 BCE, ancient Greece saw the rise of city-states, the birth of democracy, and major achievements in philosophy, science, and the arts.",
+    "id": "event--800-greek-civilization"
+  },
+  {
+    "year": "-753",
+    "title": "Founding of Rome",
+    "description": "Legendary founding of Rome, leading to the rise of Roman civilization.",
+    "explanation": "According to legend, Rome was founded in 753 BCE, eventually becoming the center of one of history's greatest empires.",
+    "id": "event--753-rome"
+  },
+  {
+    "year": "-563",
+    "title": "Life of the Buddha and Birth of Buddhism",
+    "description": "Siddhartha Gautama (the Buddha) is born and Buddhism emerges in India.",
+    "explanation": "Around 563–400 BCE, Siddhartha Gautama, known as the Buddha, lived and taught in India, founding Buddhism, one of the world's major religions.",
+    "id": "event--563-buddha"
+  },
+  {
+    "year": "-551",
+    "title": "Life of Confucius and Birth of Confucianism",
+    "description": "Confucius is born and Confucianism emerges in China.",
+    "explanation": "Between 551 and 479 BCE, Confucius lived and taught in China, establishing Confucianism, a philosophy that shaped East Asian societies for millennia.",
+    "id": "event--551-confucius"
+  },
+  {
+    "year": "-336",
+    "title": "Empire of Alexander the Great",
+    "description": "Alexander the Great creates an immense empire across three continents.",
+    "explanation": "From 336 to 323 BCE, Alexander the Great conquered much of the known world, spreading Greek culture and influence from Greece to Egypt, Persia, and India.",
+    "id": "event--336-alexander"
+  },
+  {
+    "year": "-221",
+    "title": "Unification of China under Qin Shi Huang",
+    "description": "Qin Shi Huang unifies China and begins building the Great Wall.",
+    "explanation": "Between 221 and 206 BCE, Qin Shi Huang unified China, established the Qin dynasty, and began construction of the Great Wall.",
+    "id": "event--221-qin"
+  },
+  {
+    "year": "-45",
+    "title": "Birth of the Modern Calendar (Julian)",
+    "description": "Julius Caesar reforms the Roman calendar, creating the Julian calendar.",
+    "explanation": "In 45 BCE, Julius Caesar introduced the Julian calendar, a solar-based system that became the basis for the modern Gregorian calendar.",
+    "id": "event--45-julian-calendar"
+  },
+  {
+    "year": "-4",
+    "title": "Life of Jesus and Birth of Christianity",
+    "description": "Jesus is born and Christianity emerges in the Roman Empire.",
+    "explanation": "Between c. 4 BCE and 70 CE, Jesus of Nazareth lived and taught, leading to the birth of Christianity, which became a major world religion.",
+    "id": "event--4-jesus"
+  },
+  {
+    "year": "570",
+    "title": "Life of Muhammad and Birth of Islam",
+    "description": "Muhammad is born and Islam emerges in Arabia.",
+    "explanation": "Between 570 and 630 CE, Muhammad lived in Arabia, founded Islam, and united much of the Arabian Peninsula under a new religious and political order.",
+    "id": "event-570-muhammad"
+  },
+  {
+    "year": "732",
+    "title": "Battle of Tours-Poitiers",
+    "description": "Franks defeat Umayyad Caliphate, halting Muslim advance into Western Europe.",
+    "explanation": "In 732 CE, Charles Martel and the Franks defeated the Umayyad Caliphate at the Battle of Tours-Poitiers, halting the Muslim advance into Western Europe.",
+    "id": "event-732-tours"
+  },
+  {
+    "year": "800",
+    "title": "Charlemagne Crowned Holy Roman Emperor",
+    "description": "Charlemagne is crowned as the first Holy Roman Emperor.",
+    "explanation": "In 800 CE, Pope Leo III crowned Charlemagne as the first Holy Roman Emperor, marking the foundation of the Holy Roman Empire in Western Europe.",
+    "id": "event-800-charlemagne"
+  },
+  {
+    "year": "800",
+    "title": "Invention and Use of Gunpowder",
+    "description": "Chinese alchemists invent gunpowder, revolutionizing warfare.",
+    "explanation": "Between c. 800 and 1300 CE, Chinese alchemists invented gunpowder, which spread across Eurasia and transformed military technology.",
+    "id": "event-800-gunpowder"
+  },
+  {
+    "year": "870",
+    "title": "Norse Exploration of the North Atlantic",
+    "description": "Norse explorers discover and colonize Iceland, Greenland, and North America.",
+    "explanation": "Between c. 870 and 1000 CE, Norse explorers discovered and settled Iceland, Greenland, and briefly North America (Vinland).",
+    "id": "event-870-norse"
+  },
+  {
+    "year": "1066",
+    "title": "Norman Conquest of England",
+    "description": "William the Conqueror invades England and becomes king after the Battle of Hastings.",
+    "explanation": "In 1066 CE, William the Conqueror led the Norman invasion of England, defeating King Harold II at the Battle of Hastings and becoming king, profoundly shaping English history.",
+    "id": "event-1066-norman"
+  },
+  {
+    "year": "1088",
+    "title": "First Western-Style University Established",
+    "description": "The University of Bologna is founded in Italy, the first Western-style university.",
+    "explanation": "In 1088 CE, the University of Bologna was founded in Italy, becoming the first Western-style university and a model for higher education in Europe.",
+    "id": "event-1088-bologna"
+  },
+  {
+    "year": "1095",
+    "title": "The First Crusade",
+    "description": "Pope Urban II calls for the First Crusade to the Holy Land.",
+    "explanation": "Between 1095 and 1099 CE, the First Crusade was launched by Pope Urban II, resulting in the capture of Jerusalem and the establishment of Crusader states in the Levant.",
+    "id": "event-1095-crusade"
+  },
+  {
+    "year": "1150",
+    "title": "Construction of Angkor Wat",
+    "description": "King Suryavarman II builds Angkor Wat in Cambodia.",
+    "explanation": "Around 1150 CE, King Suryavarman II of the Khmer Empire built Angkor Wat, a monumental temple complex in Cambodia.",
+    "id": "event-1150-angkorwat"
+  },
+  {
+    "year": "1192",
+    "title": "Start of Shogunate Rule in Japan",
+    "description": "Minamoto no Yoritomo establishes the Kamakura Shogunate in Japan.",
+    "explanation": "In 1192 CE, Minamoto no Yoritomo overthrew the Taira emperor and established the Kamakura Shogunate, beginning centuries of shogunate rule in Japan.",
+    "id": "event-1192-shogunate"
+  },
+  {
+    "year": "1206",
+    "title": "Genghis Khan Founds the Mongol Empire",
+    "description": "Genghis Khan unites the Mongols and begins building a vast empire.",
+    "explanation": "From 1206 to 1260 CE, Genghis Khan and his successors built the Mongol Empire, the largest contiguous land empire in history.",
+    "id": "event-1206-mongol"
+  },
+  {
+    "year": "1215",
+    "title": "Signing of the Magna Carta",
+    "description": "English nobles force King John to sign the Magna Carta, limiting royal power.",
+    "explanation": "In 1215 CE, English nobles forced King John to sign the Magna Carta, establishing the principle that the king was subject to the law.",
+    "id": "event-1215-magna-carta"
+  },
+  {
+    "year": "1271",
+    "title": "Marco Polo's Travels to Asia",
+    "description": "Venetian merchant Marco Polo travels through Asia, reaching China.",
+    "explanation": "Between 1271 and 1300 CE, Marco Polo traveled through Asia, reaching China and later sharing his experiences in a widely read account.",
+    "id": "event-1271-marcopolo"
+  },
+  {
+    "year": "1325",
+    "title": "Rise and Fall of the Aztec Civilization",
+    "description": "The Aztec Empire rises in Mexico and falls to Spanish conquest.",
+    "explanation": "From 1325 to 1521 CE, the Aztec Empire rose to power in Mexico before being conquered by Spanish forces led by Hernán Cortés.",
+    "id": "event-1325-aztec"
+  },
+  {
+    "year": "1347",
+    "title": "The Black Death Devastates Europe",
+    "description": "The bubonic plague kills one-third of Europe's population.",
+    "explanation": "In 1347–1348, the Black Death (bubonic plague) swept through Europe, killing an estimated one-third of the population and profoundly impacting society and history.",
+    "id": "event-1347-blackdeath"
+  },
+  {
+    "year": "1350",
+    "title": "The Renaissance Begins in Italy",
+    "description": "A rediscovery of classical knowledge sparks innovations in arts and culture.",
+    "explanation": "From c. 1350 to 1600, the Renaissance began in Florence, Italy, leading to major achievements in art, science, and culture across Europe.",
+    "id": "event-1350-renaissance"
+  },
+  {
+    "year": "1438",
+    "title": "The Inca Empire Rises in South America",
+    "description": "The Inca people create an empire across the Andes.",
+    "explanation": "From 1438 to 1533, the Inca Empire rose to dominate the Andes region of South America before falling to Spanish conquest.",
+    "id": "event-1438-inca"
+  },
+  {
+    "year": "1440",
+    "title": "Gutenberg Invents the Printing Press",
+    "description": "Johannes Gutenberg invents a printing press using movable metal type.",
+    "explanation": "Between 1440 and 1455, Johannes Gutenberg invented the printing press, revolutionizing the spread of information and literacy in Europe.",
+    "id": "event-1440-gutenberg"
+  },
+  {
+    "year": "1453",
+    "title": "Ottoman Turks Take Constantinople",
+    "description": "The fall of Constantinople marks the end of the Byzantine Empire.",
+    "explanation": "In 1453, the Ottoman Turks captured Constantinople, ending the Byzantine Empire and shifting the balance of power in the region.",
+    "id": "event-1453-constantinople"
+  },
+  {
+    "year": "1492",
+    "title": "Columbus Arrives in the Americas",
+    "description": "Christopher Columbus lands in the West Indies, beginning European conquest of the Americas.",
+    "explanation": "In 1492, Christopher Columbus arrived in the West Indies, initiating European exploration and colonization of the Americas.",
+    "id": "event-1492-columbus"
+  },
+  {
+    "year": "1498",
+    "title": "Vasco da Gama Finds Sea Route to India",
+    "description": "Portuguese explorer Vasco da Gama sails to India, opening a new trade route.",
+    "explanation": "In 1498, Vasco da Gama reached India by sea, establishing a direct maritime route from Europe to Asia and boosting global trade.",
+    "id": "event-1498-dagama"
+  },
+  {
+    "year": "1502",
+    "title": "The Slave Trade Begins in the Americas",
+    "description": "Enslaved Africans are brought to the Americas for the first time.",
+    "explanation": "From 1502 to 1619, enslaved Africans were forcibly brought to the Americas, beginning the transatlantic slave trade and shaping the history of the New World.",
+    "id": "event-1502-slavetrade"
+  },
+  {
+    "year": "1517",
+    "title": "Martin Luther Starts the Protestant Reformation",
+    "description": "Martin Luther sends his 95 Theses, challenging the Catholic Church.",
+    "explanation": "In 1517, Martin Luther sent his 95 Theses to the Archbishop of Mainz, sparking the Protestant Reformation and transforming Christianity in Europe.",
+    "id": "event-1517-reformation"
+  },
+  {
+    "year": "1520",
+    "title": "Suleiman the Magnificent Expands the Ottoman Empire",
+    "description": "Suleiman rules the Ottoman Empire during a period of great expansion.",
+    "explanation": "From 1520 to 1566, Suleiman the Magnificent ruled the Ottoman Empire, leading it through a period of territorial expansion and cultural achievement.",
+    "id": "event-1520-suleiman"
+  },
+  {
+    "year": "1522",
+    "title": "Magellan's Expedition Circumnavigates the Globe",
+    "description": "Ferdinand Magellan's expedition is the first to circumnavigate the Earth.",
+    "explanation": "In 1522, the expedition led by Ferdinand Magellan completed the first circumnavigation of the globe, proving the world was round and interconnected.",
+    "id": "event-1522-magellan"
+  },
+  {
+    "year": "1543",
+    "title": "Copernicus Proposes Heliocentric Model",
+    "description": "Nicolaus Copernicus publishes his heliocentric theory of the solar system.",
+    "explanation": "In 1543, Nicolaus Copernicus published 'On the Revolutions of the Celestial Spheres,' proposing that the Earth revolves around the Sun.",
+    "id": "event-1543-copernicus"
+  },
+  {
+    "year": "1588",
+    "title": "Defeat of the Spanish Armada",
+    "description": "England under Queen Elizabeth I defeats the Spanish Armada.",
+    "explanation": "In 1588, the English navy, under Queen Elizabeth I, defeated the Spanish Armada, marking a turning point in European naval power.",
+    "id": "event-1588-armada"
+  },
+  {
+    "year": "1599",
+    "title": "Shakespeare Writes Hamlet",
+    "description": "William Shakespeare writes the play Hamlet in England.",
+    "explanation": "Between 1599 and 1601, William Shakespeare wrote Hamlet, one of the most influential works in English literature.",
+    "id": "event-1599-hamlet"
+  },
+  {
+    "year": "1607",
+    "title": "First Permanent English Settlement in America",
+    "description": "English colonists establish Jamestown, Virginia.",
+    "explanation": "In 1607, English colonists established Jamestown, Virginia, the first permanent English settlement in North America.",
+    "id": "event-1607-jamestown"
+  },
+  {
+    "year": "1609",
+    "title": "Galileo Publishes The Starry Messenger",
+    "description": "Galileo Galilei announces astronomical discoveries using a telescope.",
+    "explanation": "Between 1609 and 1610, Galileo Galilei published 'The Starry Messenger,' announcing discoveries that revolutionized astronomy.",
+    "id": "event-1609-galileo"
+  },
+  {
+    "year": "1642",
+    "title": "English Civil War Begins",
+    "description": "Civil war breaks out in England between Parliament and the monarchy.",
+    "explanation": "From 1642 to 1660, England experienced a civil war between Parliament and the monarchy, leading to the temporary overthrow of the monarchy.",
+    "id": "event-1642-civilwar"
+  },
+  {
+    "year": "1632",
+    "title": "Construction of the Taj Mahal",
+    "description": "Mughal Emperor Shah Jahan builds the Taj Mahal in India.",
+    "explanation": "Between 1632 and 1653, Mughal Emperor Shah Jahan built the Taj Mahal, a monumental mausoleum in Agra, India.",
+    "id": "event-1632-tajmahal"
+  },
+  {
+    "year": "1663",
+    "title": "The Power of Steam is Harnessed",
+    "description": "Early steam engines are invented, leading to the Industrial Revolution.",
+    "explanation": "Between 1663 and 1801, inventors in Britain and the US developed steam engines, paving the way for the Industrial Revolution.",
+    "id": "event-1663-steam"
+  },
+  {
+    "year": "1683",
+    "title": "Battle of Vienna Halts Ottoman Expansion",
+    "description": "European forces defeat the Ottomans at Vienna, stopping their advance into Europe.",
+    "explanation": "In 1683, the Holy Roman Empire and allies defeated the Ottoman Turks at the Battle of Vienna, halting Ottoman expansion into Western Europe.",
+    "id": "event-1683-vienna"
+  },
+  {
+    "year": "1687",
+    "title": "Newton Publishes Principia Mathematica",
+    "description": "Isaac Newton explains universal laws of motion and gravitation.",
+    "explanation": "In 1687, Isaac Newton published 'Principia Mathematica,' laying the foundation for classical physics.",
+    "id": "event-1687-newton"
+  },
+  {
+    "year": "1733",
+    "title": "Innovations Spark the Industrial Revolution",
+    "description": "British inventors develop key textile technologies.",
+    "explanation": "Between 1733 and 1785, innovations in the British textile industry, such as the flying shuttle and spinning jenny, sparked the Industrial Revolution.",
+    "id": "event-1733-industrial"
+  },
+  {
+    "year": "1773",
+    "title": "The Boston Tea Party",
+    "description": "American colonists protest British taxes by throwing tea into Boston Harbor.",
+    "explanation": "On December 16, 1773, American colonists protested British taxation by dumping tea into Boston Harbor, a key event leading to the American Revolution.",
+    "id": "event-1773-bostontea"
+  },
+  {
+    "year": "1775",
+    "title": "The American Revolution",
+    "description": "The American colonies fight for independence from Britain.",
+    "explanation": "From 1775 to 1783, the American colonies fought for and won independence from Britain, establishing the United States.",
+    "id": "event-1775-americanrev"
+  },
+  {
+    "year": "1789",
+    "title": "The French Revolution",
+    "description": "Revolutionaries overthrow the monarchy and establish a republic in France.",
+    "explanation": "From 1789 to 1799, the French Revolution overthrew the monarchy, established a republic, and profoundly changed France and the world.",
+    "id": "event-1789-frenchrev"
+  },
+  {
+    "year": "1796",
+    "title": "The Medical Revolution: First Vaccine",
+    "description": "Edward Jenner creates the first vaccine, for smallpox.",
+    "explanation": "In 1796, Edward Jenner used cowpox virus to create the first vaccine, for smallpox, launching the field of immunology.",
+    "id": "event-1796-vaccine"
+  },
+  {
+    "year": "1802",
+    "title": "Birth of Rail Transport",
+    "description": "Early steam locomotives are developed, leading to the railway age.",
+    "explanation": "Between 1802 and 1830, inventors in Britain developed steam locomotives and railways, revolutionizing transportation.",
+    "id": "event-1802-rail"
+  },
+  {
+    "year": "1804",
+    "title": "Haitian Revolution and Independence",
+    "description": "Enslaved people in Saint-Domingue establish the new nation of Haiti.",
+    "explanation": "In 1804, after a successful revolution, enslaved people in Saint-Domingue established Haiti, the first independent Black republic.",
+    "id": "event-1804-haiti"
+  },
+  {
+    "year": "1799",
+    "title": "The Napoleonic Wars Begin",
+    "description": "Napoleon Bonaparte rises to power and leads France in a series of wars.",
+    "explanation": "From 1799 to 1815, Napoleon Bonaparte led France in the Napoleonic Wars, reshaping Europe through conquest and reform.",
+    "id": "event-1799-napoleon"
+  },
+  {
+    "year": "1807",
+    "title": "Abolition of the Slave Trade in the UK",
+    "description": "The United Kingdom abolishes the transatlantic slave trade.",
+    "explanation": "In 1807, the United Kingdom passed legislation abolishing the transatlantic slave trade, a major step toward ending slavery worldwide.",
+    "id": "event-1807-abolition"
+  },
+  {
+    "year": "1817",
+    "title": "Latin American Wars of Independence",
+    "description": "Spain's colonies in Central and South America fight for and win independence.",
+    "explanation": "From 1817 to 1825, Spain's colonies in Central and South America fought for and won independence, reshaping the Americas.",
+    "id": "event-1817-latinamerica"
+  },
+  {
+    "year": "1832",
+    "title": "Invention of the Telegraph",
+    "description": "The telegraph revolutionizes long-distance communication.",
+    "explanation": "Between 1832 and 1840, inventors in Europe and the US developed the telegraph, revolutionizing long-distance communication.",
+    "id": "event-1832-telegraph"
+  },
+  {
+    "year": "1848",
+    "title": "The Communist Manifesto Published",
+    "description": "Karl Marx and Friedrich Engels publish The Communist Manifesto.",
+    "explanation": "In 1848, Karl Marx and Friedrich Engels published The Communist Manifesto, a foundational text for socialist and communist movements.",
+    "id": "event-1848-communist"
+  },
+  {
+    "year": "1859",
+    "title": "Darwin Publishes On the Origin of Species",
+    "description": "Charles Darwin publishes his theory of evolution by natural selection.",
+    "explanation": "In 1859, Charles Darwin published 'On the Origin of Species,' introducing the theory of evolution by natural selection.",
+    "id": "event-1859-darwin"
+  },
+  {
+    "year": "1860",
+    "title": "The American Civil War Begins",
+    "description": "Civil war breaks out in the United States over slavery and states' rights.",
+    "explanation": "From 1860 to 1865, the United States fought a civil war over slavery and states' rights, resulting in the abolition of slavery.",
+    "id": "event-1860-civilwar"
+  },
+  {
+    "year": "1867",
+    "title": "The Meiji Restoration in Japan",
+    "description": "Tokugawa Yoshinobu abdicates, ending shogun rule and restoring imperial power.",
+    "explanation": "In 1867, the Meiji Restoration ended centuries of shogunate rule in Japan and restored imperial power, leading to rapid modernization.",
+    "id": "event-1867-meiji"
+  },
+  {
+    "year": "1869",
+    "title": "Opening of the Suez Canal",
+    "description": "The Suez Canal links the Mediterranean and Red Sea, transforming global trade.",
+    "explanation": "In 1869, the Suez Canal opened, linking the Mediterranean and Red Sea and transforming global trade routes.",
+    "id": "event-1869-suez"
+  },
+  {
+    "year": "1876",
+    "title": "Alexander Graham Bell Patents the Telephone",
+    "description": "Bell invents and patents the telephone, revolutionizing communication.",
+    "explanation": "In 1876, Alexander Graham Bell patented the telephone, revolutionizing personal and business communication.",
+    "id": "event-1876-telephone"
+  },
+  {
+    "year": "1880",
+    "title": "European Colonization of Africa Intensifies",
+    "description": "European powers divide and colonize Africa at the Berlin Conference.",
+    "explanation": "In the 1880s, European powers divided and colonized Africa at the Berlin Conference, reshaping the continent's political landscape.",
+    "id": "event-1880-africa"
+  },
+  {
+    "year": "1893",
+    "title": "Women's Suffrage Movement Achieves First Successes",
+    "description": "New Zealand grants women the right to vote, followed by other nations.",
+    "explanation": "Between 1893 and 1928, the women's suffrage movement achieved major successes, with New Zealand, Australia, Finland, the US, and the UK granting women the right to vote.",
+    "id": "event-1893-suffrage"
+  },
+  {
+    "year": "1879",
+    "title": "Invention of Radio Begins",
+    "description": "Early experiments and inventions lay the groundwork for radio communication.",
+    "explanation": "Between 1879 and 1901, inventors in Europe and the US developed the technology that led to the invention of radio.",
+    "id": "event-1879-radio"
+  },
+  {
+    "year": "1895",
+    "title": "Discovery of X-Rays",
+    "description": "Wilhelm Röntgen discovers x-rays, revolutionizing medicine.",
+    "explanation": "In 1895, Wilhelm Röntgen discovered x-rays, a breakthrough that revolutionized medical imaging and diagnosis.",
+    "id": "event-1895-xrays"
+  },
+  {
+    "year": "1903",
+    "title": "Wright Brothers' First Powered Flight",
+    "description": "Orville and Wilbur Wright achieve the first powered flight in the US.",
+    "explanation": "On December 17, 1903, the Wright brothers achieved the first powered, controlled flight of an airplane in Kitty Hawk, North Carolina.",
+    "id": "event-1903-wright"
+  },
+  {
+    "year": "1904",
+    "title": "Japan Defeats Russia in the Russo-Japanese War",
+    "description": "Japan is recognized as a world power after defeating Russia.",
+    "explanation": "From 1904 to 1905, Japan defeated Russia in the Russo-Japanese War, establishing itself as a major world power.",
+    "id": "event-1904-japan"
+  },
+  {
+    "year": "1905",
+    "title": "Einstein's Annus Mirabilis",
+    "description": "Albert Einstein publishes groundbreaking papers, including special relativity.",
+    "explanation": "In 1905, Albert Einstein published a series of papers, including the special theory of relativity and E=mc², revolutionizing physics.",
+    "id": "event-1905-einstein"
+  },
+  {
+    "year": "1914",
+    "title": "World War I Begins",
+    "description": "The assassination of Archduke Franz Ferdinand triggers World War I.",
+    "explanation": "In 1914, the assassination of Archduke Franz Ferdinand led to the outbreak of World War I, a global conflict that reshaped the world order.",
+    "id": "event-1914-ww1"
+  },
+  {
+    "year": "1917",
+    "title": "The Russian Revolution",
+    "description": "Revolutionaries overthrow the Tsar and establish the Soviet Union.",
+    "explanation": "From 1917 to 1922, the Russian Revolution overthrew the Tsar, led to civil war, and resulted in the creation of the Soviet Union.",
+    "id": "event-1917-russianrev"
+  },
+  {
+    "year": "1918",
+    "title": "Global Influenza Epidemic",
+    "description": "A worldwide influenza epidemic kills millions of people.",
+    "explanation": "In 1918, a global influenza epidemic (Spanish flu) killed an estimated 20 million people worldwide.",
+    "id": "event-1918-flu"
+  },
+  {
+    "year": "1925",
+    "title": "Invention of Television",
+    "description": "Early television transmissions and inventions revolutionize communication.",
+    "explanation": "Between 1925 and 1929, inventors in Europe, the US, and Japan developed television, revolutionizing mass communication.",
+    "id": "event-1925-tv"
+  },
+  {
+    "year": "1929",
+    "title": "The Great Depression Begins",
+    "description": "The Wall Street Crash triggers a global economic depression.",
+    "explanation": "In October 1929, the Wall Street Crash triggered the Great Depression, a worldwide economic crisis that lasted through the 1930s.",
+    "id": "event-1929-depression"
+  },
+  {
+    "year": "1920",
+    "title": "Rise of Adolf Hitler and the Nazis",
+    "description": "Adolf Hitler forms the Nazi Party and rises to power in Germany.",
+    "explanation": "From 1920 to 1939, Adolf Hitler formed the Nazi Party, rose to power, and led Germany into World War II.",
+    "id": "event-1920-hitler"
+  },
+  {
+    "year": "1911",
+    "title": "Revolution in China",
+    "description": "The Xinhai Revolution overthrows the Qing dynasty and establishes the Republic of China.",
+    "explanation": "From 1911 to 1949, China underwent revolution, civil war, and the eventual establishment of the People's Republic of China.",
+    "id": "event-1911-china"
+  },
+  {
+    "year": "1939",
+    "title": "World War II Begins",
+    "description": "Germany invades Poland, triggering World War II.",
+    "explanation": "In 1939, Germany invaded Poland, triggering World War II, the deadliest conflict in human history.",
+    "id": "event-1939-ww2"
+  },
+  {
+    "year": "1945",
+    "title": "The United Nations is Formed",
+    "description": "The United Nations is established to promote peace and cooperation.",
+    "explanation": "In 1945–1946, the United Nations was established, bringing together nations to promote peace, security, and cooperation worldwide.",
+    "id": "event-1945-un"
+  },
+  {
+    "year": "1833",
+    "title": "The Digital Revolution Begins",
+    "description": "Charles Babbage designs the Difference Machine, the first concept of a computer.",
+    "explanation": "From 1833 to 1965, inventors developed the first computers, leading to the digital revolution and the modern information age.",
+    "id": "event-1833-digital"
+  },
+  {
+    "year": "1947",
+    "title": "India Gains Independence from the UK",
+    "description": "India becomes independent from British colonial rule.",
+    "explanation": "In 1947, India gained independence from the UK, inspiring decolonization movements worldwide.",
+    "id": "event-1947-india"
+  },
+  {
+    "year": "1945",
+    "title": "The Cold War Begins",
+    "description": "Tensions rise between the US and Soviet Union, starting the Cold War.",
+    "explanation": "From 1945 to 1989, the Cold War between the US and Soviet Union shaped global politics, economics, and military affairs.",
+    "id": "event-1945-coldwar"
+  },
+  {
+    "year": "1953",
+    "title": "Discovery of DNA Structure",
+    "description": "James Watson and Francis Crick describe the double helix structure of DNA.",
+    "explanation": "In 1953, James Watson and Francis Crick published their discovery of the double helix structure of DNA, revolutionizing biology and genetics.",
+    "id": "event-1953-dna"
+  },
+  {
+    "year": "1954",
+    "title": "U.S. Civil Rights Movement Begins",
+    "description": "The U.S. Supreme Court rules segregated education unconstitutional.",
+    "explanation": "From 1954 to 1968, the U.S. Civil Rights Movement fought for and achieved major advances in racial equality and civil rights.",
+    "id": "event-1954-civilrights"
+  },
+  {
+    "year": "1955",
+    "title": "The Vietnam War Begins",
+    "description": "Conflict erupts in Vietnam, leading to decades of war.",
+    "explanation": "From 1955 to 1975, the Vietnam War raged in Southeast Asia, with major involvement from the US and global consequences.",
+    "id": "event-1955-vietnam"
+  },
+  {
+    "year": "1957",
+    "title": "Sputnik Launches the Space Age",
+    "description": "The Soviet Union launches Sputnik 1, the first artificial satellite.",
+    "explanation": "On October 4, 1957, the Soviet Union launched Sputnik 1, the first artificial satellite, marking the beginning of the space age.",
+    "id": "event-1957-sputnik"
+  },
+  {
+    "year": "1960",
+    "title": "First Contraceptive Pill Approved",
+    "description": "The U.S. FDA approves the first contraceptive pill.",
+    "explanation": "On May 9, 1960, the U.S. Food & Drug Administration approved the first contraceptive pill, revolutionizing reproductive health.",
+    "id": "event-1960-pill"
+  },
+  {
+    "year": "1961",
+    "title": "Yuri Gagarin Becomes First Human in Space",
+    "description": "Soviet cosmonaut Yuri Gagarin orbits the Earth.",
+    "explanation": "In 1961, Soviet cosmonaut Yuri Gagarin became the first human to travel into space, orbiting the Earth aboard Vostok 1.",
+    "id": "event-1961-gagarin"
+  },
+  {
+    "year": "1963",
+    "title": "Assassination of John F. Kennedy",
+    "description": "U.S. President John F. Kennedy is assassinated in Dallas, Texas.",
+    "explanation": "On November 22, 1963, U.S. President John F. Kennedy was assassinated in Dallas, Texas, shocking the world.",
+    "id": "event-1963-jfk"
+  },
+  {
+    "year": "1969",
+    "title": "Apollo 11 Moon Landing",
+    "description": "Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon.",
+    "explanation": "On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Buzz Aldrin became the first humans to set foot on the Moon, marking a major milestone in space exploration and human achievement.",
+    "id": "event-1969-apollo11"
+  },
+  {
+    "year": "1965",
+    "title": "The Birth of the Internet Begins",
+    "description": "Early computer networks are developed, leading to the Internet.",
+    "explanation": "From 1965 to 1995, the development of computer networks led to the creation of the Internet, transforming global communication.",
+    "id": "event-1965-internet"
+  },
+  {
+    "year": "1989",
+    "title": "The Cold War Ends and Berlin Wall Falls",
+    "description": "The Berlin Wall falls, symbolizing the end of the Cold War.",
+    "explanation": "On November 9, 1989, the Berlin Wall fell, symbolizing the end of the Cold War and the reunification of Germany.",
+    "id": "event-1989-berlinwall"
+  },
+  {
+    "year": "1990",
+    "title": "End of Apartheid in South Africa",
+    "description": "Nelson Mandela is released and apartheid ends in South Africa.",
+    "explanation": "From 1990 to 1994, Nelson Mandela was released from prison and apartheid ended in South Africa, leading to multiracial democracy.",
+    "id": "event-1990-apartheid"
+  },
+  {
+    "year": "2001",
+    "title": "September 11 Attacks and War on Terror",
+    "description": "Al Qaeda terrorists attack the US, leading to the War on Terror.",
+    "explanation": "On September 11, 2001, Al Qaeda terrorists attacked New York City and Washington, D.C., leading to the US War on Terror.",
+    "id": "event-2001-911"
+  },
+  {
+    "year": "529",
+    "title": "Justinian I Closes the Academy at Athens",
+    "description": "The last pagan philosophical school in Athens is closed by order of the Byzantine Emperor.",
+    "explanation": "In 529 CE, Emperor Justinian I closed the Academy at Athens, ending a centuries-old center of classical learning and marking a shift toward Christian dominance in education.",
+    "id": "event-529-athens-academy"
+  },
+  {
+    "year": "570",
+    "title": "Birth of Muhammad",
+    "description": "Muhammad, founder of Islam, is born in Mecca.",
+    "explanation": "Around 570 CE, Muhammad was born in Mecca. His teachings would lead to the rise of Islam, profoundly shaping world history.",
+    "id": "event-570-muhammad-birth"
+  },
+  {
+    "year": "622",
+    "title": "The Hijra: Muhammad's Migration to Medina",
+    "description": "Muhammad and his followers migrate from Mecca to Medina, marking the start of the Islamic calendar.",
+    "explanation": "In 622 CE, Muhammad and his followers migrated from Mecca to Medina, an event known as the Hijra, which marks the beginning of the Islamic calendar.",
+    "id": "event-622-hijra"
+  },
+  {
+    "year": "732",
+    "title": "Battle of Tours",
+    "description": "Frankish forces halt the advance of the Umayyad Caliphate into Western Europe.",
+    "explanation": "In 732 CE, Charles Martel led the Franks to victory over the Umayyad Caliphate at the Battle of Tours, stopping Muslim expansion into Western Europe.",
+    "id": "event-732-tours-medieval"
+  },
+  {
+    "year": "800",
+    "title": "Charlemagne Crowned Emperor",
+    "description": "Charlemagne is crowned Holy Roman Emperor by Pope Leo III.",
+    "explanation": "On Christmas Day, 800 CE, Charlemagne was crowned Holy Roman Emperor, reviving the imperial tradition in Western Europe.",
+    "id": "event-800-charlemagne-crowned"
+  },
+  {
+    "year": "843",
+    "title": "Treaty of Verdun Divides the Carolingian Empire",
+    "description": "Charlemagne's empire is split among his grandsons, shaping the future of Europe.",
+    "explanation": "In 843 CE, the Treaty of Verdun divided the Carolingian Empire into three kingdoms, laying the groundwork for modern France and Germany.",
+    "id": "event-843-verdun"
+  },
+  {
+    "year": "862",
+    "title": "Founding of Kievan Rus'",
+    "description": "The state of Kievan Rus' is established, precursor to Russia, Ukraine, and Belarus.",
+    "explanation": "In 862 CE, the state of Kievan Rus' was founded by Norse settlers, becoming a major medieval power in Eastern Europe.",
+    "id": "event-862-kievanrus"
+  },
+  {
+    "year": "988",
+    "title": "Christianization of Kievan Rus'",
+    "description": "Vladimir the Great adopts Christianity for his people, spreading Orthodox Christianity in Eastern Europe.",
+    "explanation": "In 988 CE, Vladimir the Great converted to Christianity and baptized Kievan Rus', establishing Orthodox Christianity in the region.",
+    "id": "event-988-kievanrus-christian"
+  },
+  {
+    "year": "1054",
+    "title": "The Great Schism",
+    "description": "The Christian Church splits into Roman Catholic and Eastern Orthodox branches.",
+    "explanation": "In 1054 CE, the Great Schism divided Christianity into the Roman Catholic and Eastern Orthodox Churches, a split that endures to this day.",
+    "id": "event-1054-schism"
+  },
+  {
+    "year": "1066",
+    "title": "Norman Conquest of England",
+    "description": "William the Conqueror defeats Harold II at the Battle of Hastings and becomes king of England.",
+    "explanation": "In 1066 CE, William the Conqueror led the Normans to victory at Hastings, transforming English society, language, and governance.",
+    "id": "event-1066-norman-medieval"
+  },
+  {
+    "year": "1071",
+    "title": "Battle of Manzikert",
+    "description": "Seljuk Turks defeat the Byzantine Empire, opening Anatolia to Turkish settlement.",
+    "explanation": "In 1071 CE, the Seljuk Turks defeated the Byzantines at Manzikert, leading to Turkish dominance in Anatolia and weakening Byzantine power.",
+    "id": "event-1071-manzikert"
+  },
+  {
+    "year": "1095",
+    "title": "Pope Urban II Calls the First Crusade",
+    "description": "Pope Urban II urges Christians to reclaim the Holy Land, launching the Crusades.",
+    "explanation": "In 1095 CE, Pope Urban II called for the First Crusade, initiating a series of religious wars between Christians and Muslims over the Holy Land.",
+    "id": "event-1095-crusade-call"
+  },
+  {
+    "year": "1122",
+    "title": "Concordat of Worms Ends Investiture Controversy",
+    "description": "An agreement between the Pope and Holy Roman Emperor resolves a major church-state conflict.",
+    "explanation": "In 1122 CE, the Concordat of Worms ended the Investiture Controversy, clarifying the roles of church and state in appointing bishops.",
+    "id": "event-1122-worms"
+  },
+  {
+    "year": "1147",
+    "title": "Second Crusade Launched",
+    "description": "European leaders launch the Second Crusade to the Holy Land.",
+    "explanation": "In 1147 CE, European monarchs launched the Second Crusade in response to the fall of Edessa, but the campaign ultimately failed to achieve its goals.",
+    "id": "event-1147-secondcrusade"
+  },
+  {
+    "year": "1187",
+    "title": "Saladin Recaptures Jerusalem",
+    "description": "Muslim leader Saladin retakes Jerusalem from the Crusaders.",
+    "explanation": "In 1187 CE, Saladin recaptured Jerusalem from the Crusaders, prompting the launch of the Third Crusade by European powers.",
+    "id": "event-1187-saladin"
+  },
+  {
+    "year": "1204",
+    "title": "Fourth Crusade Sacks Constantinople",
+    "description": "Crusaders capture and sack Constantinople, weakening the Byzantine Empire.",
+    "explanation": "In 1204 CE, Crusaders diverted from their original goal and sacked Constantinople, severely weakening the Byzantine Empire.",
+    "id": "event-1204-constantinople-sack"
+  },
+  {
+    "year": "1215",
+    "title": "Magna Carta Signed",
+    "description": "King John of England signs the Magna Carta, limiting royal authority.",
+    "explanation": "In 1215 CE, King John of England was forced to sign the Magna Carta, establishing the principle that the king was subject to the law.",
+    "id": "event-1215-magna-medieval"
+  },
+  {
+    "year": "1241",
+    "title": "Mongol Invasion of Europe",
+    "description": "Mongol armies defeat European forces at the Battle of Legnica.",
+    "explanation": "In 1241 CE, Mongol armies defeated European forces at Legnica, demonstrating the reach and power of the Mongol Empire.",
+    "id": "event-1241-mongol-legnica"
+  },
+  {
+    "year": "1274",
+    "title": "First Mongol Invasion of Japan",
+    "description": "Mongol fleets attempt to invade Japan but are repelled by storms and defenders.",
+    "explanation": "In 1274 CE, the Mongols launched their first invasion of Japan, but storms (kamikaze) and Japanese resistance forced their retreat.",
+    "id": "event-1274-mongol-japan"
+  },
+  {
+    "year": "1291",
+    "title": "Fall of Acre Ends Crusader States",
+    "description": "The last Crusader stronghold in the Holy Land falls to Muslim forces.",
+    "explanation": "In 1291 CE, the city of Acre fell to Muslim forces, marking the end of Crusader states in the Holy Land.",
+    "id": "event-1291-acre"
+  },
+  {
+    "year": "1302",
+    "title": "Pope Boniface VIII Issues Unam Sanctam",
+    "description": "A papal bull asserts papal supremacy over secular rulers.",
+    "explanation": "In 1302 CE, Pope Boniface VIII issued Unam Sanctam, declaring the supremacy of the pope over secular authorities, intensifying church-state conflicts.",
+    "id": "event-1302-unamsanctam"
+  },
+  {
+    "year": "1337",
+    "title": "Start of the Hundred Years' War",
+    "description": "A prolonged conflict begins between England and France over succession to the French throne.",
+    "explanation": "In 1337 CE, the Hundred Years' War began between England and France, a series of conflicts that shaped both nations for generations.",
+    "id": "event-1337-hundredyearswar"
+  },
+  {
+    "year": "1347",
+    "title": "The Black Death Arrives in Europe",
+    "description": "The bubonic plague devastates Europe, killing millions.",
+    "explanation": "In 1347 CE, the Black Death reached Europe, causing massive population loss and social upheaval.",
+    "id": "event-1347-blackdeath-medieval"
+  },
+  {
+    "year": "1378",
+    "title": "The Western Schism Begins",
+    "description": "Rival popes are elected, dividing the Catholic Church.",
+    "explanation": "In 1378 CE, the Western Schism began, with multiple claimants to the papacy, splitting the Catholic Church for decades.",
+    "id": "event-1378-westernschism"
+  },
+  {
+    "year": "1381",
+    "title": "The Peasants' Revolt in England",
+    "description": "English peasants rise up against taxes and feudal oppression.",
+    "explanation": "In 1381 CE, the Peasants' Revolt erupted in England, challenging feudal structures and royal authority.",
+    "id": "event-1381-peasantsrevolt"
+  },
+  {
+    "year": "1415",
+    "title": "Battle of Agincourt",
+    "description": "English forces achieve a major victory over the French in the Hundred Years' War.",
+    "explanation": "In 1415 CE, the English army, led by Henry V, defeated a much larger French force at Agincourt, a turning point in the Hundred Years' War.",
+    "id": "event-1415-agincourt"
+  },
+  {
+    "year": "1431",
+    "title": "Joan of Arc Executed",
+    "description": "Joan of Arc is burned at the stake after leading French forces to key victories.",
+    "explanation": "In 1431 CE, Joan of Arc was executed for heresy after playing a crucial role in lifting the siege of Orléans and inspiring French resistance.",
+    "id": "event-1431-joanofarc"
+  },
+  {
+    "year": "1453",
+    "title": "Fall of Constantinople",
+    "description": "The Ottoman Empire captures Constantinople, ending the Byzantine Empire.",
+    "explanation": "In 1453 CE, the Ottomans captured Constantinople, marking the end of the Byzantine Empire and a major shift in world history.",
+    "id": "event-1453-constantinople-medieval"
+  },
+  {
+    "year": "1469",
+    "title": "Marriage of Ferdinand and Isabella Unites Spain",
+    "description": "The union of Castile and Aragon paves the way for a unified Spain.",
+    "explanation": "In 1469 CE, the marriage of Ferdinand of Aragon and Isabella of Castile united Spain's largest kingdoms, leading to the rise of a powerful Spanish state.",
+    "id": "event-1469-spain"
+  },
+  {
+    "year": "1492",
+    "title": "Columbus Reaches the Americas",
+    "description": "Christopher Columbus lands in the New World, initiating European colonization.",
+    "explanation": "In 1492 CE, Columbus reached the Americas, beginning a new era of global exploration and exchange.",
+    "id": "event-1492-columbus-medieval"
+  },
+  {
+    "year": "711",
+    "title": "Umayyad Conquest of Hispania",
+    "description": "Muslim forces cross into Iberia, beginning centuries of Islamic rule in Spain.",
+    "explanation": "In 711 CE, Umayyad armies crossed the Strait of Gibraltar and began the conquest of the Iberian Peninsula, establishing Al-Andalus.",
+    "id": "event-711-hispania"
+  },
+  {
+    "year": "793",
+    "title": "Viking Raid on Lindisfarne",
+    "description": "Vikings attack the monastery at Lindisfarne, marking the start of the Viking Age.",
+    "explanation": "In 793 CE, Vikings raided the monastery at Lindisfarne, England, signaling the beginning of the Viking Age in Europe.",
+    "id": "event-793-lindisfarne"
+  },
+  {
+    "year": "800",
+    "title": "Carolingian Renaissance Begins",
+    "description": "A revival of learning and culture flourishes under Charlemagne.",
+    "explanation": "Around 800 CE, Charlemagne's court fostered a revival of learning, arts, and culture known as the Carolingian Renaissance.",
+    "id": "event-800-carolingian"
+  },
+  {
+    "year": "919",
+    "title": "Ottonian Dynasty Rises in Germany",
+    "description": "Henry the Fowler becomes king, founding the Ottonian dynasty.",
+    "explanation": "In 919 CE, Henry the Fowler became king of East Francia, founding the Ottonian dynasty and strengthening the Holy Roman Empire.",
+    "id": "event-919-ottonian"
+  },
+  {
+    "year": "962",
+    "title": "Holy Roman Empire Established",
+    "description": "Otto I is crowned emperor, reviving the imperial title in Western Europe.",
+    "explanation": "In 962 CE, Otto I was crowned Holy Roman Emperor, reestablishing the imperial tradition in Western Europe.",
+    "id": "event-962-holyroman"
+  },
+  {
+    "year": "1000",
+    "title": "Leif Erikson Reaches North America",
+    "description": "Norse explorer Leif Erikson lands in Vinland, likely Newfoundland.",
+    "explanation": "Around 1000 CE, Leif Erikson led Norse expeditions to North America, centuries before Columbus.",
+    "id": "event-1000-leiferikson"
+  },
+  {
+    "year": "1040",
+    "title": "Invention of Movable Type in China",
+    "description": "Bi Sheng invents movable clay type, revolutionizing printing in East Asia.",
+    "explanation": "Around 1040 CE, Bi Sheng in China invented movable type printing, a major technological advance.",
+    "id": "event-1040-movabletype"
+  },
+  {
+    "year": "1099",
+    "title": "Crusaders Capture Jerusalem",
+    "description": "First Crusade forces seize Jerusalem from Muslim control.",
+    "explanation": "In 1099 CE, Crusaders captured Jerusalem, establishing a Christian kingdom in the Holy Land.",
+    "id": "event-1099-jerusalem"
+  },
+  {
+    "year": "1176",
+    "title": "Battle of Legnano",
+    "description": "Italian city-states defeat the Holy Roman Emperor, asserting their independence.",
+    "explanation": "In 1176 CE, the Lombard League of Italian cities defeated Emperor Frederick Barbarossa at Legnano, strengthening communal independence.",
+    "id": "event-1176-legnano"
+  },
+  {
+    "year": "1212",
+    "title": "Battle of Las Navas de Tolosa",
+    "description": "Christian forces win a decisive victory over the Almohads in Spain.",
+    "explanation": "In 1212 CE, Christian armies defeated the Almohad Caliphate at Las Navas de Tolosa, a turning point in the Reconquista.",
+    "id": "event-1212-lasnavas"
+  },
+  {
+    "year": "1227",
+    "title": "Death of Genghis Khan",
+    "description": "Genghis Khan dies, leaving a vast Mongol Empire to his successors.",
+    "explanation": "In 1227 CE, Genghis Khan died, and his empire was divided among his sons, continuing Mongol expansion across Eurasia.",
+    "id": "event-1227-genghiskhan"
+  },
+  {
+    "year": "1260",
+    "title": "Battle of Ain Jalut",
+    "description": "Mamluk forces defeat the Mongols, halting their advance into Egypt.",
+    "explanation": "In 1260 CE, the Mamluks defeated the Mongols at Ain Jalut, stopping Mongol expansion into the Middle East.",
+    "id": "event-1260-ainjalut"
+  },
+  {
+    "year": "1279",
+    "title": "Yuan Dynasty Established in China",
+    "description": "Kublai Khan completes the Mongol conquest of China, founding the Yuan dynasty.",
+    "explanation": "In 1279 CE, Kublai Khan established the Yuan dynasty after conquering the Song, bringing all of China under Mongol rule.",
+    "id": "event-1279-yuan"
+  },
+  {
+    "year": "1299",
+    "title": "Ottoman Empire Founded",
+    "description": "Osman I founds the Ottoman dynasty, which will rule for centuries.",
+    "explanation": "In 1299 CE, Osman I founded the Ottoman dynasty, beginning the rise of the Ottoman Empire.",
+    "id": "event-1299-ottoman"
+  },
+  {
+    "year": "1309",
+    "title": "Avignon Papacy Begins",
+    "description": "The papacy moves from Rome to Avignon, France, for nearly 70 years.",
+    "explanation": "In 1309 CE, the papacy relocated to Avignon, France, where it remained until 1377, a period known as the Avignon Papacy.",
+    "id": "event-1309-avignon"
+  },
+  {
+    "year": "1337",
+    "title": "Hundred Years' War Begins",
+    "description": "A long conflict starts between England and France over the French throne.",
+    "explanation": "In 1337 CE, the Hundred Years' War began, a series of conflicts between England and France that lasted until 1453.",
+    "id": "event-1337-hundredyearswar-medieval"
+  },
+  {
+    "year": "1356",
+    "title": "Golden Bull Issued in the Holy Roman Empire",
+    "description": "The Golden Bull defines the constitutional structure of the Holy Roman Empire.",
+    "explanation": "In 1356 CE, the Golden Bull was issued, establishing rules for electing the Holy Roman Emperor and shaping imperial governance.",
+    "id": "event-1356-goldenbull"
+  },
+  {
+    "year": "1389",
+    "title": "Battle of Kosovo",
+    "description": "Ottoman and Serbian forces clash in a pivotal battle for the Balkans.",
+    "explanation": "In 1389 CE, the Battle of Kosovo saw Ottoman and Serbian armies fight for control of the Balkans, influencing the region's future.",
+    "id": "event-1389-kosovo"
+  },
+  {
+    "year": "1410",
+    "title": "Battle of Grunwald",
+    "description": "Polish-Lithuanian forces defeat the Teutonic Knights in one of medieval Europe's largest battles.",
+    "explanation": "In 1410 CE, the Polish-Lithuanian alliance defeated the Teutonic Knights at Grunwald, shifting the balance of power in Eastern Europe.",
+    "id": "event-1410-grunwald"
+  },
+  {
+    "year": "1455",
+    "title": "Wars of the Roses Begin in England",
+    "description": "A dynastic conflict erupts between the houses of Lancaster and York.",
+    "explanation": "In 1455 CE, the Wars of the Roses began, a series of civil wars for the English throne between the houses of Lancaster and York.",
+    "id": "event-1455-roses"
+  }
+]

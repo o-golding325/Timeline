@@ -1,0 +1,125 @@
+.howto-btn-floating {
+  position: fixed;
+  right: 2vw;
+  bottom: 2vw;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #274B4A;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+.howto-btn-floating:hover {
+  background: #1E6F60;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.modal {
+  background: #fff;
+  color: #213547;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 350px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  text-align: center;
+}
+#root, #app-root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: linear-gradient(180deg, #0f1724 0%, #0b1220 100%);
+  color: #e6eef8;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.app-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+.tag {
+  margin: 0.25rem 0 0;
+  color: #9fb5d3;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.prompt {
+  background: rgba(255,255,255,0.03);
+  padding: 1rem;
+  border-radius: 8px;
+}
+.event-title {
+  margin: 0 0 0.5rem 0;
+}
+.event-desc {
+  margin: 0;
+  color: #c8d6ea;
+}
+.event-image {
+  max-width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+}
+
+.controls {
+  display: grid;
+  gap: 1rem;
+}
+.guess-form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.guess-form label { display:none }
+.guess-form input[type="number"] {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  width: 160px;
+}
+.buttons { display:flex; gap:0.5rem }
+.buttons button { padding: 0.5rem 0.75rem; border-radius:8px; border:none }
+.buttons .muted { background: transparent; color: #9fb5d3 }
+
+.feedback { background: rgba(255,255,255,0.02); padding:0.75rem; border-radius:6px }
+.tries { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:0.25rem }
+.try { display:flex; justify-content:space-between; padding:0.4rem 0.6rem; border-radius:6px; background: rgba(255,255,255,0.01) }
+.try .val { font-weight:600 }
+.try.correct { background: linear-gradient(90deg,#274B4A,#1E6F60) }
+.try.earlier { border-left:4px solid #f97316 }
+.try.later { border-left:4px solid #3b82f6 }
+
+.reveal { margin-top:0.5rem; padding:0.6rem; background: rgba(255,255,255,0.02); border-radius:6px }
+
+.app-footer { margin-top:1.5rem; text-align:center; color:#7f98b3 }

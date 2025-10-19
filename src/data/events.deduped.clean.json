@@ -1,0 +1,30 @@
+[
+  {
+    "year": "570",
+    "title": "Life of Muhammad and Birth of Islam",
+    "description": "Muhammad is born and Islam emerges in Arabia.",
+    "explanation": "Between 570 and 630 CE, Muhammad lived in Arabia, founded Islam, and united much of the Arabian Peninsula under a new religious and political order.",
+    "id": "event-570-muhammad"
+  },
+  {
+    "year": "732",
+    "title": "Battle of Tours (Poitiers)",
+    "description": "Frankish forces led by Charles Martel defeat the Umayyad Caliphate, halting Muslim expansion into Western Europe.",
+    "explanation": "In 732 CE, Charles Martel led the Franks to victory over the Umayyad Caliphate at the Battle of Tours (also known as Poitiers), stopping Muslim expansion into Western Europe and shaping the future of the continent.",
+    "id": "event-732-tours"
+  },
+  {
+    "year": "1066",
+    "title": "Norman Conquest of England",
+    "description": "William the Conqueror defeats Harold II at the Battle of Hastings and becomes king of England.",
+    "explanation": "In 1066 CE, William the Conqueror led the Normans to victory at Hastings, transforming English society, language, and governance, and beginning a new era in English history.",
+    "id": "event-1066-norman"
+  },
+  {
+    "year": "1095",
+    "title": "The First Crusade Begins",
+    "description": "Pope Urban II calls for the First Crusade, leading to the capture of Jerusalem and the establishment of Crusader states.",
+    "explanation": "In 1095 CE, Pope Urban II called for the First Crusade, which resulted in the capture of Jerusalem in 1099 and the creation of Crusader states in the Levant, profoundly impacting Christian-Muslim relations and European history.",
+    "id": "event-1095-crusade"
+  }
+]
