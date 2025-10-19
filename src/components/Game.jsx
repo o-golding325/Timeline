@@ -54,18 +54,27 @@ export default function Game() {
   // Track last daily event played (by date string)
   const todayStr = new Date().toISOString().slice(0, 10)
   const [lastDaily, setLastDaily] = useState(() => localStorage.getItem('timeliner_last_daily') || '')
-  const [events, setEvents] = useState(null)
-  const [index, setIndex] = useState(null)
+  const [events, setEvents] = useState(null);
+  const [index, setIndex] = useState(null);
+  // Load events on mount
   React.useEffect(() => {
+    let isMounted = true;
     getEvents().then(evts => {
-      setEvents(evts)
-      if (used.length === 0) {
-        getDailyIndex().then(idx => setIndex(idx))
-      } else {
-        getNextUnusedIndex(used).then(idx => setIndex(idx ?? 0))
-      }
-    })
-  }, [])
+      if (!isMounted) return;
+      setEvents(evts);
+    });
+    return () => { isMounted = false; };
+  }, []);
+
+  // Set index when events or used changes
+  React.useEffect(() => {
+    if (!events) return;
+    if (used.length === 0) {
+      getDailyIndex().then(idx => setIndex(idx));
+    } else {
+      getNextUnusedIndex(used).then(idx => setIndex(idx ?? 0));
+    }
+  }, [events, used]);
 
   // Guard: If events or index is undefined, show loading or error
   if (!events || index === null || !events[index]) {
@@ -77,9 +86,9 @@ export default function Game() {
           <p>If this persists, the event pool may be empty or misconfigured.</p>
         </section>
       </div>
-    )
+    );
   }
-  const event = events[index]
+  const event = events[index];
   console.log('index:', index, 'events.length:', events.length, 'event:', event);
 
   const [guess, setGuess] = useState('')
@@ -91,12 +100,12 @@ export default function Game() {
   // If user already played daily today, skip to extra mode
   React.useEffect(() => {
     if (mode === 'daily' && lastDaily === todayStr && events) {
-      setMode('extra')
+      setMode('extra');
       getNextUnusedIndex(used).then(nextIndex => {
-        if (nextIndex !== null) setIndex(nextIndex)
-      })
+        if (nextIndex !== null) setIndex(nextIndex);
+      });
     }
-  }, [mode, lastDaily, todayStr, used, events])
+  }, [mode, lastDaily, todayStr, used, events]);
 
   const handleGuess = (e) => {
     e.preventDefault()
@@ -128,41 +137,41 @@ export default function Game() {
 
   const onNext = () => {
     // Mark this question as used
-    const newUsed = [...used, index]
-    setUsed(newUsed)
-    localStorage.setItem('timeliner_used', JSON.stringify(newUsed))
+    const newUsed = [...used, index];
+    setUsed(newUsed);
+    localStorage.setItem('timeliner_used', JSON.stringify(newUsed));
     // If daily, mark as played today and update stats
     if (mode === 'daily') {
-      localStorage.setItem('timeliner_last_daily', todayStr)
-      setLastDaily(todayStr)
+      localStorage.setItem('timeliner_last_daily', todayStr);
+      setLastDaily(todayStr);
       // Update stats
-      let stats = getDailyStats()
+      let stats = getDailyStats();
       if (stats.lastDate === todayStr) {
         // Already played today, do not increment
       } else {
-        stats.total += 1
+        stats.total += 1;
         if (tries.length && tries[tries.length-1].hint === 'correct') {
-          stats.streak = (stats.lastDate && ((new Date(todayStr) - new Date(stats.lastDate)) === 86400000)) ? stats.streak + 1 : 1
-          stats.correct += 1
+          stats.streak = (stats.lastDate && ((new Date(todayStr) - new Date(stats.lastDate)) === 86400000)) ? stats.streak + 1 : 1;
+          stats.correct += 1;
         } else {
-          stats.streak = 0
+          stats.streak = 0;
         }
-        stats.lastDate = todayStr
-        setDailyStats(stats)
+        stats.lastDate = todayStr;
+        setDailyStats(stats);
       }
     }
     // Switch to extra mode if daily was completed
-    setMode('extra')
+    setMode('extra');
     // Pick next unused question
     getNextUnusedIndex(newUsed).then(nextIndex => {
       if (nextIndex !== null) {
-        setIndex(nextIndex)
-        setTries([])
-        setDone(false)
-        setGuess('')
+        setIndex(nextIndex);
+        setTries([]);
+        setDone(false);
+        setGuess('');
       }
-    })
-  }
+    });
+  };
 
   const onReset = () => {
     window.location.reload()
