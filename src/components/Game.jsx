@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import events from '../data/events'
+import events from '../data/events.json'
 import { getDailyIndex, getNextUnusedIndex } from './QuestionBank'
 import '../App.css'
 
@@ -60,6 +60,19 @@ export default function Game() {
     return getNextUnusedIndex(used) ?? getDailyIndex()
   })
   const event = events[index]
+
+  // Guard: If event is undefined, show loading or error
+  if (!event) {
+    return (
+      <div className="game">
+        <DailyStats />
+        <section className="prompt">
+          <h2>Loading event...</h2>
+          <p>If this persists, the event pool may be empty or misconfigured.</p>
+        </section>
+      </div>
+    )
+  }
 
   const [guess, setGuess] = useState('')
   const [era, setEra] = useState('AD') // 'AD' or 'BCE'
