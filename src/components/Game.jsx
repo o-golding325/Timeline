@@ -56,9 +56,11 @@ export default function Game() {
   const [lastDaily, setLastDaily] = useState(() => localStorage.getItem('timeliner_last_daily') || '')
   const [events, setEvents] = useState(null);
   const [index, setIndex] = useState(null);
+  const [loading, setLoading] = useState(true);
   // Load events and index on mount and when used changes
   React.useEffect(() => {
     let isMounted = true;
+    setLoading(true);
     async function loadAll() {
       const evts = await getEvents();
       if (!isMounted) return;
@@ -72,13 +74,14 @@ export default function Game() {
       }
       if (!isMounted) return;
       setIndex(idx);
+      setLoading(false);
     }
     loadAll();
     return () => { isMounted = false; };
   }, [used]);
 
-  // Guard: If events or index is undefined, show loading or error
-  if (!events || index === null || !events[index]) {
+  // Guard: If loading or missing event, show loading or error
+  if (loading || !events || index === null || !events[index]) {
     return (
       <div className="game">
         <DailyStats />
