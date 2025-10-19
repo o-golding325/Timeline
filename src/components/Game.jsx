@@ -38,7 +38,7 @@ function DailyStats() {
     return () => window.removeEventListener('storage', handler)
   }, [])
   return (
-    <div style={{background:'#f5f7fa',border:'1px solid #eee',borderRadius:'8px',padding:'0.5em 1em',marginBottom:'0.5em',fontSize:'0.98em'}}>
+    <div className="daily-stats-bar">
       <b>Daily Stats:</b> Streak: {stats.streak} | Played: {stats.total} | Correct: {stats.correct}
     </div>
   )
@@ -57,6 +57,12 @@ export default function Game() {
   const [events, setEvents] = useState(null);
   const [index, setIndex] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [guess, setGuess] = useState('')
+  const [era, setEra] = useState('AD') // 'AD' or 'BCE'
+  const [showHowTo, setShowHowTo] = useState(false)
+  const [tries, setTries] = useState([])
+  const [done, setDone] = useState(false)
+
   // Load events and index on mount and when used changes
   React.useEffect(() => {
     let isMounted = true;
@@ -80,27 +86,6 @@ export default function Game() {
     return () => { isMounted = false; };
   }, [used]);
 
-  // Guard: If loading or missing event, show loading or error
-  if (loading || !events || index === null || !events[index]) {
-    return (
-      <div className="game">
-        <DailyStats />
-        <section className="prompt">
-          <h2>Loading event...</h2>
-          <p>If this persists, the event pool may be empty or misconfigured.</p>
-        </section>
-      </div>
-    );
-  }
-  const event = events[index];
-  console.log('index:', index, 'events.length:', events.length, 'event:', event);
-
-  const [guess, setGuess] = useState('')
-  const [era, setEra] = useState('AD') // 'AD' or 'BCE'
-  const [showHowTo, setShowHowTo] = useState(false)
-  const [tries, setTries] = useState([])
-  const [done, setDone] = useState(false)
-
   // If user already played daily today, skip to extra mode
   React.useEffect(() => {
     if (mode === 'daily' && lastDaily === todayStr && events) {
@@ -112,6 +97,43 @@ export default function Game() {
       setNextUnused();
     }
   }, [mode, lastDaily, todayStr, used, events]);
+
+  // Guard: If loading or missing event, show loading or error
+  if (loading) {
+    return (
+      <div className="game">
+        <DailyStats />
+        <section className="prompt">
+          <h2>Loading event...</h2>
+          <p>Please wait while we load the next event.</p>
+        </section>
+      </div>
+    );
+  }
+  if (!events || events.length === 0) {
+    return (
+      <div className="game">
+        <DailyStats />
+        <section className="prompt">
+          <h2>No events found</h2>
+          <p>Sorry, there are no events available. Please check your data source or try again later.</p>
+        </section>
+      </div>
+    );
+  }
+  if (index === null || !events[index]) {
+    return (
+      <div className="game">
+        <DailyStats />
+        <section className="prompt">
+          <h2>Event not found</h2>
+          <p>Sorry, we couldn't find the requested event. Please try the next event or reload the page.</p>
+        </section>
+      </div>
+    );
+  }
+
+  const event = events[index];
 
   const handleGuess = (e) => {
     e.preventDefault()
@@ -138,7 +160,7 @@ export default function Game() {
     const next = [...tries, { value: val, diff, hint, era }]
     setTries(next)
     setGuess('')
-    if (absDiff === 0 || next.length >= 4) setDone(true)
+    if (absDiff === 0 || next.length >= 6) setDone(true)
   }
 
   const onNext = () => {
@@ -184,8 +206,6 @@ export default function Game() {
   const onReset = () => {
     window.location.reload()
   }
-
-  console.log('index:', index, 'events.length:', events.length, 'event:', event);
 
   return (
     <div className="game">
@@ -241,21 +261,35 @@ export default function Game() {
         </form>
 
         <div className="feedback">
-          {tries.length === 0 && <p>Make a guess — you have 4 tries.</p>}
+          {tries.length === 0 && <p>Make a guess — you have 6 tries.</p>}
 
           {tries.length > 0 && (
             <ul className="tries">
-              {tries.map((t, i) => (
-                <li key={i} className={`try ${t.hint}`}>
-                  <span className="val">{t.value}</span>
-                  <span className="arrow">
-                    {t.hint !== 'correct' && (
-                      t.diff < 0 ? '↑' : '↓'
-                    )}
-                  </span>
-                  <span className="hint">{t.hint}</span>
-                </li>
-              ))}
+              {tries.map((t, i) => {
+                let hintEmoji = '';
+                if (t.hint === 'freezing') hintEmoji = '🧊';
+                else if (t.hint === 'cold') hintEmoji = '💨';
+                else if (t.hint === 'hot') hintEmoji = '☀️';
+                else if (t.hint === 'boiling') hintEmoji = '🔥';
+                return (
+                  <li key={i} className={`try ${t.hint}`}>
+                    <span className="val">{Math.abs(t.value)} {t.value < 0 ? 'BCE' : 'AD'}</span>
+                    <span className="arrow" style={{ margin: '0 0.5em' }}>
+                      {t.hint !== 'correct' && (
+                        t.diff < 0 ? '↑' : t.diff > 0 ? '↓' : ''
+                      )}
+                    </span>
+                    <span className="hint" style={{ marginLeft: '0.5em' }}>
+                      {t.hint !== 'correct' ? `${t.hint} ${hintEmoji}` : ''}
+                      {t.hint === 'correct' && (
+                        <span style={{ color: '#27ae60', marginLeft: '0.5em', fontWeight: 'bold' }}>
+                          &#10003; Correct
+                        </span>
+                      )}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           )}
 
@@ -263,9 +297,7 @@ export default function Game() {
             <div className="reveal">
               <h3>Answer: {Math.abs(Number(event.year))} {Number(event.year) < 0 ? 'BCE' : 'AD'}</h3>
               <p>{event.explanation}</p>
-              {mode === 'daily' ? (
-                <button onClick={onNext} className="next-btn">Play more questions</button>
-              ) : null}
+              <button onClick={onNext} className="next-btn">Next Event</button>
             </div>
           )}
         </div>
