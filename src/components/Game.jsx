@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import events from '../data/events.json'
-import { getDailyIndex, getNextUnusedIndex } from './QuestionBank'
+import { getDailyIndex, getNextUnusedIndex, getEvents } from './QuestionBank'
 import '../App.css'
 
 
@@ -55,14 +54,21 @@ export default function Game() {
   // Track last daily event played (by date string)
   const todayStr = new Date().toISOString().slice(0, 10)
   const [lastDaily, setLastDaily] = useState(() => localStorage.getItem('timeliner_last_daily') || '')
-  const [index, setIndex] = useState(() => {
-    if (used.length === 0) return getDailyIndex()
-    return getNextUnusedIndex(used) ?? getDailyIndex()
-  })
-  const event = events[index]
+  const [events, setEvents] = useState(null)
+  const [index, setIndex] = useState(null)
+  React.useEffect(() => {
+    getEvents().then(evts => {
+      setEvents(evts)
+      if (used.length === 0) {
+        getDailyIndex().then(idx => setIndex(idx))
+      } else {
+        getNextUnusedIndex(used).then(idx => setIndex(idx ?? 0))
+      }
+    })
+  }, [])
 
-  // Guard: If event is undefined, show loading or error
-  if (!event) {
+  // Guard: If events or index is undefined, show loading or error
+  if (!events || index === null || !events[index]) {
     return (
       <div className="game">
         <DailyStats />
@@ -73,6 +79,8 @@ export default function Game() {
       </div>
     )
   }
+  const event = events[index]
+  console.log('index:', index, 'events.length:', events.length, 'event:', event);
 
   const [guess, setGuess] = useState('')
   const [era, setEra] = useState('AD') // 'AD' or 'BCE'
@@ -82,12 +90,13 @@ export default function Game() {
 
   // If user already played daily today, skip to extra mode
   React.useEffect(() => {
-    if (mode === 'daily' && lastDaily === todayStr) {
+    if (mode === 'daily' && lastDaily === todayStr && events) {
       setMode('extra')
-      const nextIndex = getNextUnusedIndex(used)
-      if (nextIndex !== null) setIndex(nextIndex)
+      getNextUnusedIndex(used).then(nextIndex => {
+        if (nextIndex !== null) setIndex(nextIndex)
+      })
     }
-  }, [])
+  }, [mode, lastDaily, todayStr, used, events])
 
   const handleGuess = (e) => {
     e.preventDefault()
@@ -97,7 +106,7 @@ export default function Game() {
     if (era === 'BCE') val = -Math.abs(val)
     else val = Math.abs(val)
 
-    const diff = val - event.year
+    const diff = val - Number(event.year)
     let hint = ''
     const absDiff = Math.abs(diff)
     if (absDiff === 0) {
@@ -145,18 +154,21 @@ export default function Game() {
     // Switch to extra mode if daily was completed
     setMode('extra')
     // Pick next unused question
-    const nextIndex = getNextUnusedIndex(newUsed)
-    if (nextIndex !== null) {
-      setIndex(nextIndex)
-      setTries([])
-      setDone(false)
-      setGuess('')
-    }
+    getNextUnusedIndex(newUsed).then(nextIndex => {
+      if (nextIndex !== null) {
+        setIndex(nextIndex)
+        setTries([])
+        setDone(false)
+        setGuess('')
+      }
+    })
   }
 
   const onReset = () => {
     window.location.reload()
   }
+
+  console.log('index:', index, 'events.length:', events.length, 'event:', event);
 
   return (
     <div className="game">
@@ -232,7 +244,7 @@ export default function Game() {
 
           {done && (
             <div className="reveal">
-              <h3>Answer: {Math.abs(event.year)} {event.year < 0 ? 'BCE' : 'AD'}</h3>
+              <h3>Answer: {Math.abs(Number(event.year))} {Number(event.year) < 0 ? 'BCE' : 'AD'}</h3>
               <p>{event.explanation}</p>
               {mode === 'daily' ? (
                 <button onClick={onNext} className="next-btn">Play more questions</button>

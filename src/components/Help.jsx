@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Help() {
   return (
-    <div className="help-page" role="main" aria-label="Help and About Timeliner" style={{maxWidth:600,margin:'2em auto',padding:'2em',background:'#fff',borderRadius:'12px',boxShadow:'0 2px 12px #0001'}}>
+  <div className="help-page" role="main" aria-label="Help and About Timeliner" style={{maxWidth:600,margin:'2em auto',padding:'2em',background:'#fff',color:'#222',borderRadius:'12px',boxShadow:'0 2px 12px #0001'}}>
       <h1 tabIndex={0}>How to Play Timeliner</h1>
       <ul>
         <li>Each day, everyone gets the same <b>Primary Event of the Day</b> to guess.</li>
