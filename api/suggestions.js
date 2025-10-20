@@ -1,6 +1,8 @@
+
 import { promises as fs } from 'fs';
-import { sendSuggestionEmail } from './send-email';
-const FILE_PATH = './api/suggestions.json';
+
+import path from 'path';
+const FILE_PATH = path.join(process.cwd(), 'src', 'data', 'suggestions.json');
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
@@ -22,9 +24,13 @@ export default async function handler(req, res) {
       created: new Date().toISOString()
     };
     suggestions.push(newSuggestion);
-    await fs.writeFile(FILE_PATH, JSON.stringify(suggestions, null, 2));
-    // Send email notification
-    await sendSuggestionEmail(feedback);
+    try {
+      await fs.writeFile(FILE_PATH, JSON.stringify(suggestions, null, 2));
+    } catch (err) {
+      console.error('Failed to write suggestions.json:', err);
+      return res.status(500).json({ error: 'Failed to write suggestions file.' });
+    }
+    // Email notification removed (send-email module missing)
     return res.status(201).json({ success: true });
   }
   if (req.method === 'GET') {

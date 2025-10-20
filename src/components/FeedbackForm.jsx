@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
-export default function FeedbackForm({ onSubmit }) {
+export default function FeedbackForm({ t, onSubmit }) {
   const [feedback, setFeedback] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
@@ -29,16 +30,16 @@ export default function FeedbackForm({ onSubmit }) {
 
   return (
     <form className="feedback-form" onSubmit={handleSubmit}>
-      <label htmlFor="feedback">Feedback or Suggestions:</label>
+      <label htmlFor="feedback">{t ? t('feedbackLabel', 'Feedback or Suggestions:') : 'Feedback or Suggestions:'}</label>
       <textarea
         id="feedback"
         value={feedback}
         onChange={e => setFeedback(e.target.value)}
         rows={3}
-        placeholder="Let us know what you think or suggest an event!"
+  placeholder={t ? t('feedbackPlaceholder') : 'Let us know what you think or suggest an event!'}
         required
       />
-      <button type="submit">Send Feedback</button>
+      <button type="submit">{t ? t('sendFeedback') : 'Send Feedback'}</button>
       {error && <div className="feedback-error">{error}</div>}
     </form>
   );

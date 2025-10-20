@@ -5,7 +5,8 @@ import FeedbackForm from './FeedbackForm'
 import AuthPanel from './AuthPanel'
 import { supabase } from '../lib/supabaseClient'
 import { getUserStats, saveUserStats } from '../lib/statsSync'
-
+import '../i18n';
+import { useTranslation } from 'react-i18next';
 
 // Modal component must be outside main function
 import exampleEvent from '../assets/example-event.jpg'
@@ -49,6 +50,7 @@ function DailyStats() {
 }
 
 export default function Game() {
+  const { t, i18n } = useTranslation();
   const [user, setUser] = useState(null)
   // Track which questions have been played
   const [mode, setMode] = useState('daily') // 'daily' or 'extra'
@@ -236,7 +238,10 @@ export default function Game() {
 
   return (
     <div className="game">
-      <DailyStats />
+      <button style={{position:'absolute',top:10,right:10}} onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en')}>
+        {i18n.language === 'en' ? 'Español' : 'English'}
+      </button>
+      <DailyStats t={t} />
       <section className="prompt">
         {mode === 'daily' && (
           <div style={{background:'#ffe066',color:'#7a5c00',padding:'0.5em 1em',borderRadius:'8px',marginBottom:'0.5em',fontWeight:'bold',fontSize:'1.1em',textAlign:'center',letterSpacing:'0.5px'}}>
@@ -324,9 +329,16 @@ export default function Game() {
             <div className="reveal">
               <h3>Answer: {Math.abs(Number(event.year))} {Number(event.year) < 0 ? 'BCE' : 'AD'}</h3>
               <p>{event.explanation}</p>
-              <button onClick={onNext} className="next-btn">Next Event</button>
             </div>
           )}
+          <button
+            onClick={onNext}
+            className="next-btn"
+            disabled={loading}
+            style={{marginTop:'1em'}}
+          >
+            Next Event
+          </button>
         </div>
       </section>
       <HowToPlayModal open={showHowTo} onClose={() => setShowHowTo(false)} />
@@ -339,7 +351,7 @@ export default function Game() {
       >
         ?
       </button>
-      <FeedbackForm />
+      <FeedbackForm t={t} />
     </div>
   )
 }

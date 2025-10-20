@@ -1042,4 +1042,26 @@
     "explanation": "In 1455 CE, the Wars of the Roses began, a series of civil wars for the English throne between the houses of Lancaster and York.",
     "id": "event-1455-roses"
   }
+  ,
+  {
+    "year": "-268",
+    "title": "The Maurya Empire and the Rule of Ashoka",
+    "description": "Ashoka expanded the Maurya Empire before embracing Buddhism, promoting peace and economic growth across South Asia.",
+    "explanation": "Ashoka expanded the Maurya Empire through military conquest, but after witnessing the suffering caused by war, he embraced Buddhism and ruled with a focus on peace, religious tolerance, and economic development. His reign influenced much of South and East Asia.",
+    "id": "event--268-maurya-ashoka"
+  },
+  {
+    "year": "1235",
+    "title": "The Rise and Expansion of the Mali Empire",
+    "description": "The Mali Empire dominated West African trade and culture, reaching its peak under Mansa Musa, the richest ruler in history.",
+    "explanation": "From 1235 to the 1600s, the Mali Empire controlled key trade routes in West Africa, becoming a center of wealth, learning, and Islamic culture, especially under Mansa Musa.",
+    "id": "event-1235-mali-empire"
+  },
+  {
+    "year": "1966",
+    "title": "The Chinese Cultural Revolution",
+    "description": "Chairman Mao launched a movement to solidify communist rule, leading to social and political upheaval in China.",
+    "explanation": "From 1966 to 1976, Mao Zedong's Cultural Revolution sought to enforce communism by removing capitalist, traditional, and cultural elements from Chinese society, resulting in widespread persecution and turmoil.",
+    "id": "event-1966-cultural-revolution"
+  }
 ]
