@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { getDailyIndex, getNextUnusedIndex, getEvents } from './QuestionBank'
 import '../App.css'
+import FeedbackForm from './FeedbackForm'
+import AuthPanel from './AuthPanel'
+import { supabase } from '../lib/supabaseClient'
+import { getUserStats, saveUserStats } from '../lib/statsSync'
 
 
 // Modal component must be outside main function
@@ -45,6 +49,7 @@ function DailyStats() {
 }
 
 export default function Game() {
+  const [user, setUser] = useState(null)
   // Track which questions have been played
   const [mode, setMode] = useState('daily') // 'daily' or 'extra'
   const [used, setUsed] = useState(() => {
@@ -85,6 +90,26 @@ export default function Game() {
     loadAll();
     return () => { isMounted = false; };
   }, [used]);
+
+  // Supabase auth listener and load user stats
+  React.useEffect(() => {
+    const session = supabase.auth.getSession().then(r => {
+      if (r?.data?.session?.user) setUser(r.data.session.user)
+    })
+    const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
+      if (session?.user) {
+        setUser(session.user)
+        // load user stats
+        (async () => {
+          const s = await getUserStats(session.user.id)
+          if (s) {
+            setDailyStats(s)
+          }
+        })()
+      } else setUser(null)
+    })
+    return () => listener?.subscription?.unsubscribe()
+  }, [])
 
   // If user already played daily today, skip to extra mode
   React.useEffect(() => {
@@ -186,6 +211,8 @@ export default function Game() {
         }
         stats.lastDate = todayStr;
         setDailyStats(stats);
+        // save to user account if signed in
+        if (user) saveUserStats(user.id, stats)
       }
     }
     // Switch to extra mode if daily was completed
@@ -220,7 +247,7 @@ export default function Game() {
 
         <h2 className="event-title">{event.title}</h2>
         {event.image && (
-          <img src={event.image} alt="event" className="event-image" />
+          <img src={event.image} alt={event.title || 'Event image'} className="event-image" />
         )}
         <p className="event-desc">{event.description}</p>
       </section>
@@ -242,8 +269,8 @@ export default function Game() {
             <button
               type="button"
               onClick={() => setEra(era === 'AD' ? 'BCE' : 'AD')}
-              style={{ minWidth: '3.5em', fontWeight: 'bold', border: '1px solid #ccc', borderRadius: '6px', background: '#f5f7fa', cursor: 'pointer' }}
-              tabIndex={-1}
+              style={{ minWidth: '3.5em', fontWeight: 'bold', border: '1px solid #274B4A', borderRadius: '6px', background: '#fff', color: '#222', cursor: 'pointer' }}
+              tabIndex={0}
               aria-label="Switch BCE/AD"
               disabled={done}
             >
@@ -308,9 +335,11 @@ export default function Game() {
         type="button"
         onClick={() => setShowHowTo(true)}
         aria-label="How to Play"
+        tabIndex={0}
       >
         ?
       </button>
+      <FeedbackForm />
     </div>
   )
 }
