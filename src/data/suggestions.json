@@ -4360,5 +4360,137 @@
     "feedback": "{\"year\":\"1588\",\"title\":\"French Wars of Religion: Henry III of France flees Paris aft...\",\"description\":\"French Wars of Religion: Henry III of France flees Paris after Henry I, Duke of Guise, enters the city and a spontaneous uprising occurs.\",\"explanation\":\"French Wars of Religion: Henry III of France flees Paris after Henry I, Duke of Guise, enters the city and a spontaneous uprising occurs.\",\"id\":\"event-1588-french-wars-of-religion-henry-\"}",
     "status": "pending",
     "created": "2025-10-20T11:35:26.840Z"
+  },
+  {
+    "id": 1760960128878,
+    "feedback": "{\"year\":\"1588\",\"title\":\"The Spanish Armada, with 130 ships and 30,000 men, sets sail...\",\"description\":\"The Spanish Armada, with 130 ships and 30,000 men, sets sail from Lisbon, Portugal, heading for the English Channel. (It will take until May 30 for all ships to leave port.)\",\"explanation\":\"The Spanish Armada, with 130 ships and 30,000 men, sets sail from Lisbon, Portugal, heading for the English Channel. (It will take until May 30 for all ships to leave port.)\",\"id\":\"event-1588-the-spanish-armada-with-130-sh\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:28.878Z"
+  },
+  {
+    "id": 1760960130263,
+    "feedback": "{\"year\":\"1588\",\"title\":\"The last ship of the Spanish Armada sets sail from Lisbon he...\",\"description\":\"The last ship of the Spanish Armada sets sail from Lisbon heading for the English Channel.\",\"explanation\":\"The last ship of the Spanish Armada sets sail from Lisbon heading for the English Channel.\",\"id\":\"event-1588-the-last-ship-of-the-spanish-a\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:30.263Z"
+  },
+  {
+    "id": 1760960131581,
+    "feedback": "{\"year\":\"1588\",\"title\":\"Anglo-Spanish War: Battle of Gravelines: The Spanish Armada ...\",\"description\":\"Anglo-Spanish War: Battle of Gravelines: The Spanish Armada is sighted in the English Channel.\",\"explanation\":\"Anglo-Spanish War: Battle of Gravelines: The Spanish Armada is sighted in the English Channel.\",\"id\":\"event-1588-anglo-spanish-war-battle-of-gr\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:31.581Z"
+  },
+  {
+    "id": 1760960132739,
+    "feedback": "{\"year\":\"1588\",\"title\":\"Thomas Cavendish in his ship Desire enters Plymouth and comp...\",\"description\":\"Thomas Cavendish in his ship Desire enters Plymouth and completes the first deliberately planned voyage of circumnavigation.\",\"explanation\":\"Thomas Cavendish in his ship Desire enters Plymouth and completes the first deliberately planned voyage of circumnavigation.\",\"id\":\"event-1588-thomas-cavendish-in-his-ship-d\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:32.739Z"
+  },
+  {
+    "id": 1760960134395,
+    "feedback": "{\"year\":\"1588\",\"title\":\"The so-called \\\"Invincible Armada\\\" sent by Catholic King Phil...\",\"description\":\"The so-called \\\"Invincible Armada\\\" sent by Catholic King Philip II of Spain to overthrow Protestant Queen Elizabeth I of England has been handed a crushing defeat in the English Channel.\",\"explanation\":\"The so-called \\\"Invincible Armada\\\" sent by Catholic King Philip II of Spain to overthrow Protestant Queen Elizabeth I of England has been handed a crushing defeat in the English Channel.\",\"id\":\"event-1588-the-so-called-invincible-armad\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:34.395Z"
+  },
+  {
+    "id": 1760960135542,
+    "feedback": "{\"year\":\"1588\",\"title\":\"Coronation of Shah Abbas I of Persia.\",\"description\":\"Coronation of Shah Abbas I of Persia.\",\"explanation\":\"Coronation of Shah Abbas I of Persia.\",\"id\":\"event-1588-coronation-of-shah-abbas-i-of-\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:35.542Z"
+  },
+  {
+    "id": 1760960137875,
+    "feedback": "{\"year\":\"1590\",\"title\":\"Luis de Carvajal y de la Cueva is tortured by the Inquisitio...\",\"description\":\"Luis de Carvajal y de la Cueva is tortured by the Inquisition in Mexico, charged with concealing the practice of Judaism of his sister and her children.\",\"explanation\":\"Luis de Carvajal y de la Cueva is tortured by the Inquisition in Mexico, charged with concealing the practice of Judaism of his sister and her children.\",\"id\":\"event-1590-luis-de-carvajal-y-de-la-cueva\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:37.875Z"
+  },
+  {
+    "id": 1760960138905,
+    "feedback": "{\"year\":\"1590\",\"title\":\"Battle of Ivry: Henry of Navarre and the Huguenots defeat th...\",\"description\":\"Battle of Ivry: Henry of Navarre and the Huguenots defeat the forces of the Catholic League under Charles, Duke of Mayenne, during the French Wars of Religion.\",\"explanation\":\"Battle of Ivry: Henry of Navarre and the Huguenots defeat the forces of the Catholic League under Charles, Duke of Mayenne, during the French Wars of Religion.\",\"id\":\"event-1590-battle-of-ivry-henry-of-navarr\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:38.905Z"
+  },
+  {
+    "id": 1760960139908,
+    "feedback": "{\"year\":\"1590\",\"title\":\"Anne of Denmark is crowned Queen of Scotland.\",\"description\":\"Anne of Denmark is crowned Queen of Scotland.\",\"explanation\":\"Anne of Denmark is crowned Queen of Scotland.\",\"id\":\"event-1590-anne-of-denmark-is-crowned-que\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:39.908Z"
+  },
+  {
+    "id": 1760960140885,
+    "feedback": "{\"year\":\"1590\",\"title\":\"John White, the governor of the Roanoke Colony, returns from...\",\"description\":\"John White, the governor of the Roanoke Colony, returns from a supply trip to England and finds his settlement deserted.\",\"explanation\":\"John White, the governor of the Roanoke Colony, returns from a supply trip to England and finds his settlement deserted.\",\"id\":\"event-1590-john-white-the-governor-of-the\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:40.885Z"
+  },
+  {
+    "id": 1760960143033,
+    "feedback": "{\"year\":\"1590\",\"title\":\"Tokugawa Ieyasu enters Edo Castle. (Traditional Japanese dat...\",\"description\":\"Tokugawa Ieyasu enters Edo Castle. (Traditional Japanese date: August 1, 1590)\",\"explanation\":\"Tokugawa Ieyasu enters Edo Castle. (Traditional Japanese date: August 1, 1590)\",\"id\":\"event-1590-tokugawa-ieyasu-enters-edo-cas\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:43.033Z"
+  },
+  {
+    "id": 1760960145358,
+    "feedback": "{\"year\":\"1590\",\"title\":\"Alexander Farnese's army forces Henry IV of France to lift t...\",\"description\":\"Alexander Farnese's army forces Henry IV of France to lift the siege of Paris.\",\"explanation\":\"Alexander Farnese's army forces Henry IV of France to lift the siege of Paris.\",\"id\":\"event-1590-alexander-farnese-s-army-force\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:45.358Z"
+  },
+  {
+    "id": 1760960147379,
+    "feedback": "{\"year\":\"1590\",\"title\":\"The death of Pope Urban VII, 13 days after being chosen as t...\",\"description\":\"The death of Pope Urban VII, 13 days after being chosen as the Pope, ends the shortest papal reign in history.\",\"explanation\":\"The death of Pope Urban VII, 13 days after being chosen as the Pope, ends the shortest papal reign in history.\",\"id\":\"event-1590-the-death-of-pope-urban-vii-13\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:47.379Z"
+  },
+  {
+    "id": 1760960149740,
+    "feedback": "{\"year\":\"1590\",\"title\":\"Prince Gesualdo of Venosa murders his wife and her lover.[ci...\",\"description\":\"Prince Gesualdo of Venosa murders his wife and her lover.[citation needed]\",\"explanation\":\"Prince Gesualdo of Venosa murders his wife and her lover.[citation needed]\",\"id\":\"event-1590-prince-gesualdo-of-venosa-murd\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:49.740Z"
+  },
+  {
+    "id": 1760960152118,
+    "feedback": "{\"year\":\"1591\",\"title\":\"Execution of Agnes Sampson, accused of witchcraft in Edinbur...\",\"description\":\"Execution of Agnes Sampson, accused of witchcraft in Edinburgh.\",\"explanation\":\"Execution of Agnes Sampson, accused of witchcraft in Edinburgh.\",\"id\":\"event-1591-execution-of-agnes-sampson-acc\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:52.118Z"
+  },
+  {
+    "id": 1760960153573,
+    "feedback": "{\"year\":\"1591\",\"title\":\"At the Battle of Tondibi in Mali, Moroccan forces of the Saa...\",\"description\":\"At the Battle of Tondibi in Mali, Moroccan forces of the Saadi dynasty, led by Judar Pasha, defeat the Songhai Empire, despite being outnumbered by at least five to one.\",\"explanation\":\"At the Battle of Tondibi in Mali, Moroccan forces of the Saadi dynasty, led by Judar Pasha, defeat the Songhai Empire, despite being outnumbered by at least five to one.\",\"id\":\"event-1591-at-the-battle-of-tondibi-in-ma\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:53.573Z"
+  },
+  {
+    "id": 1760960154859,
+    "feedback": "{\"year\":\"1591\",\"title\":\"The Duke of Parma is defeated near the Dutch city of Nijmege...\",\"description\":\"The Duke of Parma is defeated near the Dutch city of Nijmegen by an Anglo-Dutch force led by Maurice of Orange.\",\"explanation\":\"The Duke of Parma is defeated near the Dutch city of Nijmegen by an Anglo-Dutch force led by Maurice of Orange.\",\"id\":\"event-1591-the-duke-of-parma-is-defeated-\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:54.859Z"
+  },
+  {
+    "id": 1760960156107,
+    "feedback": "{\"year\":\"1591\",\"title\":\"Pope Innocent IX is elected.\",\"description\":\"Pope Innocent IX is elected.\",\"explanation\":\"Pope Innocent IX is elected.\",\"id\":\"event-1591-pope-innocent-ix-is-elected-\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:56.107Z"
+  },
+  {
+    "id": 1760960157890,
+    "feedback": "{\"year\":\"1592\",\"title\":\"During the first Japanese invasion of Korea, Japanese forces...\",\"description\":\"During the first Japanese invasion of Korea, Japanese forces led by Toyotomi Hideyoshi captured Pyongyang, although they were ultimately unable to hold it.\",\"explanation\":\"During the first Japanese invasion of Korea, Japanese forces led by Toyotomi Hideyoshi captured Pyongyang, although they were ultimately unable to hold it.\",\"id\":\"event-1592-during-the-first-japanese-inva\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:57.890Z"
+  },
+  {
+    "id": 1760960159235,
+    "feedback": "{\"year\":\"1592\",\"title\":\"The first sighting of the Falkland Islands by John Davis.\",\"description\":\"The first sighting of the Falkland Islands by John Davis.\",\"explanation\":\"The first sighting of the Falkland Islands by John Davis.\",\"id\":\"event-1592-the-first-sighting-of-the-falk\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:35:59.235Z"
+  },
+  {
+    "id": 1760960160848,
+    "feedback": "{\"year\":\"1592\",\"title\":\"Imjin War: At the Battle of Hansan Island, the Korean Navy, ...\",\"description\":\"Imjin War: At the Battle of Hansan Island, the Korean Navy, led by Yi Sun-sin, Yi Eok-gi, and Won Gyun, decisively defeats the Japanese Navy, led by Wakisaka Yasuharu.\",\"explanation\":\"Imjin War: At the Battle of Hansan Island, the Korean Navy, led by Yi Sun-sin, Yi Eok-gi, and Won Gyun, decisively defeats the Japanese Navy, led by Wakisaka Yasuharu.\",\"id\":\"event-1592-imjin-war-at-the-battle-of-han\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:36:00.848Z"
+  },
+  {
+    "id": 1760960163418,
+    "feedback": "{\"year\":\"1593\",\"title\":\"Japanese invasion of Korea: Approximately 3,000 Joseon defen...\",\"description\":\"Japanese invasion of Korea: Approximately 3,000 Joseon defenders led by general Kwon Yul successfully repel more than 30,000 Japanese forces in the Siege of Haengju.\",\"explanation\":\"Japanese invasion of Korea: Approximately 3,000 Joseon defenders led by general Kwon Yul successfully repel more than 30,000 Japanese forces in the Siege of Haengju.\",\"id\":\"event-1593-japanese-invasion-of-korea-app\"}",
+    "status": "pending",
+    "created": "2025-10-20T11:36:03.418Z"
   }
 ]
